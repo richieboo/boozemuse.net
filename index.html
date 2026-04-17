@@ -10,98 +10,168 @@
   <meta property="og:title" content="Welcome - Katie Melynda Loeb">
   <meta property="og:description" content="March 4, 1961 – December 8, 2018 [Rest In Peace]">
   <meta property="og:site_name" content="Katie Melynda Loeb">
-  <meta property="og:image" content="wp-content/uploads/2018/12/katie-loeb-holding-cocktail-cropped.jpg">
+  <meta property="og:image" content="images/katie-loeb-website-photo.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="wp-content/uploads/2018/12/cropped-cropped-martini-favicon1-32x32.png" sizes="32x32">
   <link rel="icon" href="wp-content/uploads/2018/12/cropped-cropped-martini-favicon1-192x192.png" sizes="192x192">
   <link rel="apple-touch-icon" href="wp-content/uploads/2018/12/cropped-cropped-martini-favicon1-180x180.png">
-  <link media="all" href="wp-content/cache/autoptimize/css/autoptimize_480633cf5e40e77ef40883d220cf0447.css" rel="stylesheet">
-  <script src="wp-includes/js/jquery/jquery.min.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300;400;500&family=Dosis:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html, body {
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .page-wrapper {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .bg-photo {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 30%;
+      z-index: 0;
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.45) 0%,
+        rgba(0, 0, 0, 0.10) 35%,
+        rgba(0, 0, 0, 0.10) 65%,
+        rgba(0, 0, 0, 0.50) 100%
+      );
+      z-index: 1;
+    }
+
+    header, main, footer {
+      position: relative;
+      z-index: 2;
+    }
+
+    header {
+      padding: 2rem 2.5rem;
+    }
+
+    .site-title {
+      font-family: 'Great Vibes', cursive;
+      font-size: 2.8rem;
+      font-weight: 400;
+      color: #fff;
+      text-shadow: 1px 2px 6px rgba(0,0,0,0.6);
+      line-height: 1.1;
+    }
+
+    .site-title a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .site-description {
+      font-family: 'Dosis', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 300;
+      color: rgba(255,255,255,0.85);
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+      letter-spacing: 0.08em;
+      margin-top: 0.3rem;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding-bottom: 1rem;
+    }
+
+    .memorial-text {
+      text-align: center;
+      color: #fff;
+      text-shadow: 1px 2px 8px rgba(0,0,0,0.7);
+    }
+
+    .memorial-text .dates {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 300;
+      letter-spacing: 0.05em;
+    }
+
+    .memorial-text .rip-link {
+      display: block;
+      margin-top: 0.4rem;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+    }
+
+    .memorial-text .rip-link a {
+      color: rgba(255,255,255,0.9);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(255,255,255,0.4);
+      transition: border-color 0.2s;
+    }
+
+    .memorial-text .rip-link a:hover {
+      border-color: #fff;
+    }
+
+    footer {
+      padding: 0.8rem 2.5rem;
+      text-align: center;
+    }
+
+    .footer-credits {
+      font-family: 'Dosis', sans-serif;
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.6);
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+
+    .footer-credits a {
+      color: rgba(255,255,255,0.6);
+      text-decoration: none;
+    }
+  </style>
 </head>
-<body class="home wp-singular page-template page-template-page-templates page-template-page_front-page page-template-page-templatespage_front-page-php page page-id-14 wp-theme-sydney wp-child-theme-sydney-child menu-inline syd-has-blocks">
+<body>
+  <div class="page-wrapper">
+    <img class="bg-photo"
+         src="images/katie-loeb-website-photo.png"
+         alt="Katie Melynda Loeb holding a cocktail"
+         fetchpriority="high"
+         decoding="async">
+    <div class="overlay"></div>
 
-  <span id="toptarget"></span>
-  <div class="preloader">
-    <div class="spinner">
-      <div class="pre-bounce1"></div>
-      <div class="pre-bounce2"></div>
-    </div>
-  </div>
-
-  <div id="page" class="hfeed site">
-    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-
-    <div class="header-clone"></div>
-    <header id="masthead" class="site-header" role="banner">
-      <div class="header-wrap">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4 col-sm-8 col-xs-12">
-              <h1 class="site-title"><a href="index.html" rel="home">Katie Melynda Loeb</a></h1>
-              <h2 class="site-description">author, bartender, columnist, consultant, mixologist, sommelier.</h2>
-            </div>
-            <div class="col-md-8 col-sm-4 col-xs-12">
-              <div class="btn-menu">
-                <span class="screen-reader-text">Toggle menu</span>
-                <i class="sydney-svg-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                    <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/>
-                  </svg>
-                </i>
-              </div>
-              <nav id="mainnav" class="mainnav" role="navigation"></nav>
-            </div>
-          </div>
-        </div>
-      </div>
+    <header>
+      <h1 class="site-title"><a href="index.html">Katie Melynda Loeb</a></h1>
+      <p class="site-description">author, bartender, columnist, consultant, mixologist, sommelier.</p>
     </header>
 
-    <div class="sydney-hero-area">
-      <div class="header-image">
-        <div class="overlay"></div>
+    <main>
+      <div class="memorial-text">
+        <p class="dates">March 4, 1961 &#8211; December 8, 2018</p>
+        <p class="rip-link">[<a href="rest-in-peace/">Rest In Peace</a>]</p>
       </div>
-    </div>
+    </main>
 
-    <div id="content" class="page-wrap">
-      <div class="content-wrapper container">
-        <div class="row">
-          <div id="primary" class="fp-content-area">
-            <main id="main" class="site-main" role="main">
-              <div class="entry-content">
-                <img decoding="async" id="mobile-background-image"
-                     src="wp-content/uploads/2018/12/katie-loeb-holding-cocktail-cropped.jpg"
-                     alt="Katie Melynda Loeb holding a cocktail">
-                <p>March 4, 1961 &#8211; December 8, 2018<br>
-                [<a href="rest-in-peace/">Rest In Peace</a>]</p>
-              </div>
-            </main>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <footer id="colophon" class="site-footer">
-      <div class="container">
-        <div class="site-info">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="sydney-credits">&copy; 2026 Katie Melynda Loeb. Proudly powered by <a rel="nofollow" href="https://athemes.com/theme/sydney/">Sydney</a></div>
-            </div>
-            <div class="col-md-6"></div>
-          </div>
-        </div>
-      </div>
+    <footer>
+      <p class="footer-credits">&copy; 2026 Katie Melynda Loeb</p>
     </footer>
   </div>
-
-  <a class="go-top visibility-all position-right" href="#toptarget">
-    <i class="sydney-svg-icon">
-      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M5 15l7-7 7 7" stroke-width="3" stroke-linejoin="round"/>
-      </svg>
-    </i>
-  </a>
-
-  <script defer src="wp-content/cache/autoptimize/js/autoptimize_663318c523ea1c5d87d08f533feae462.js"></script>
 </body>
 </html>
