@@ -13,7 +13,8 @@ Static memorial site for Katie Melynda Loeb, converted from WordPress and hosted
 | **Meta / sharing** | Open Graph tags, Twitter Card meta, standard `<meta name="description">` |
 | **Images** | PNG and JPEG assets in `images/`; favicons and legacy paths under `wp-content/uploads/` from the original WordPress export |
 | **Hosting** | [GitHub Pages](https://pages.github.com/) — static files from the `master` branch |
-| **Custom domain** | `CNAME` file for `boozemuse.net`; DNS points apex and `www` to GitHub Pages |
+| **Custom domain (Git)** | `CNAME` file in the repo contains `boozemuse.net`. |
+| **Custom domain (DNS)** | Apex (`@`): GitHub Pages’ four **A** records to `185.199.108.153` … `185.199.111.153`. A **`www` CNAME to `richieboo.github.io`** is optional if `www` already **aliases the apex** (same result: both names reach GitHub Pages). See [GitHub: managing a custom domain](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site). |
 | **Jekyll** | Empty `.nojekyll` file so GitHub Pages serves files as-is (no Jekyll processing) |
 
 ## Third-party content (Rest In Peace page)
